@@ -1,6 +1,69 @@
-<!DOCTYPE html>>
-<html 1ang="zh-CH">
-    <head>
-        <meta>
-        
-    </head>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centered Content Example</title>
+    <style>
+        body {
+            display: flex;
+            /* Use flexbox layout */
+            justify-content: center;
+            /* Center horizontally */
+            align-items: center;
+            /* Center vertically */
+            height: 100vh;
+            /* Set the height of the body to viewport height */
+            margin: 0;
+            /* Remove default margin */
+            padding: 0;
+            /* Remove default padding */
+        }
+
+        ul {
+            list-style: none;
+            /* Remove default list styles */
+            padding: 0;
+            /* Remove default padding */
+        }
+
+        li {
+            margin-bottom: 20px;
+            /* Add spacing between list items */
+        }
+
+        img {
+            width: 100px;
+            /* Set the width of the images */
+            height: auto;
+            /* Maintain aspect ratio */
+            margin-right: 10px;
+            /* Add space between image and text */
+            vertical-align: middle;
+            /* Align image vertically with text */
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h2>Favorite Animals</h2>
+        <ul>
+            <li>
+                <img src="cat.jpg" alt="Cat">
+                <span>Cat</span>
+            </li>
+            <li>
+                <img src="dog.jpg" alt="Dog">
+                <span>Dog</span>
+            </li>
+            <li>
+                <img src="bird.jpg" alt="Bird">
+                <span>Bird</span>
+            </li>
+        </ul>
+    </div>
+</body>
+
+</html>
